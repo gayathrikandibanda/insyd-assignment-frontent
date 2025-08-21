@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const API_URL = 'https://YOUR-BACKEND-URL';
+const API_URL = 'https://insyd-backend.onrender.com'; // use your actual backend URL
 
 function App() {
   const [notifications, setNotifications] = useState([]);
